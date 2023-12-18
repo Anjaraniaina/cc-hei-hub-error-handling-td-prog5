@@ -17,7 +17,7 @@ jobs:
     # See: https://circleci.com/docs/configuration-reference/#steps
     steps:
       # Checkout the code as the first step.
-      - checkout
+      - checkout:
           ref: feature/java
       # Use mvn clean and package as the standard maven build phase
       - run:
